@@ -13,4 +13,4 @@ from userge import config  # noqa
 from userge.core import (  # noqa
     Userge, filters, Message, get_collection, pool)
 
-heartless = Userge()  # userge is the client name
+userge = Userge()  # userge is the client name
