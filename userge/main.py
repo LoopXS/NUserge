@@ -12,7 +12,7 @@ from pyrogram import StopPropagation
 from pyrogram.raw.base import Message
 from pyrogram.raw.types import MessageService, MessageActionContactSignUp
 
-from userge import heartless
+from userge import userge
 
 
 @userge.on_raw_update(-5)
